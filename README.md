@@ -89,12 +89,56 @@ The generated report includes:
 ### Sample Report Output
 
 ```
-jobId Description        Start    End      DurationMin Result
------ -----------        -----    ---      ----------- ------
-JOB001 Database Backup   14:30:15 14:35:20        5.08 WARNING
-JOB002 System Cleanup    15:00:00 15:02:30        2.50 OK
-JOB003 Data Migration    16:00:00 16:15:45       15.75 ERROR
-JOB004 Incomplete Task   17:00:00 -                  - INCOMPLETE
+jobId Description        Start    End      DurationMin Result    
+----- -----------        -----    ---      ----------- ------    
+37980 scheduled task 032 11:35:23 11:35:56        0.55 OK        
+57672 scheduled task 796 11:36:11 11:36:18        0.12 OK        
+10515 scheduled task 386 11:38:33 11:40:24        1.85 OK        
+23118 scheduled task 188 11:40:49 11:41:28        0.65 OK        
+60134 background job ulp 11:41:11 11:41:55        0.73 OK        
+90962 scheduled task 996 11:40:51 11:42:46        1.92 OK        
+90812 background job dej 11:39:26 11:43:32         4.1 OK        
+75164 scheduled task 173 11:45:47 11:46:51        1.07 OK        
+36709 background job djw 11:47:04 11:47:54        0.83 OK        
+26831 scheduled task 538 11:46:04 11:48:16         2.2 OK        
+47139 scheduled task 946 11:44:56 11:48:22        3.43 OK        
+39547 scheduled task 051 11:37:53 11:49:22       11.48 ERROR     
+45135 scheduled task 515 11:37:14 11:49:37       12.38 ERROR     
+32904 scheduled task 697 11:49:12 11:49:46        0.57 OK        
+71766 scheduled task 074 11:45:04 11:50:51        5.78 WARNING   
+24799 scheduled task 536 11:51:21 11:51:28        0.12 OK        
+81258 background job wmy 11:36:58 11:51:44       14.77 ERROR     
+32674 scheduled task 626 11:51:06 11:52:32        1.43 OK        
+38579 background job you 11:50:09 11:53:42        3.55 OK        
+87228 scheduled task 268 11:44:25 11:53:53        9.47 WARNING   
+50295 scheduled task 811 11:48:45 11:55:20        6.58 WARNING   
+55722 background job cmx 11:54:56 11:55:43        0.78 OK        
+33528 scheduled task 706 11:52:47 11:56:09        3.37 OK        
+27222 scheduled task 294 11:50:07 11:56:15        6.13 WARNING   
+64591 scheduled task 521 11:57:05 11:58:55        1.83 OK        
+67833 scheduled task 080 11:57:16 12:00:51        3.58 OK        
+87570 scheduled task 794 11:53:57 12:01:50        7.88 WARNING   
+99672 background job sqm 11:57:08 12:02:21        5.22 WARNING   
+96183 scheduled task 678 11:58:12 12:02:26        4.23 OK        
+16168 scheduled task 773 12:02:39 12:02:55        0.27 OK        
+34189 scheduled task 920 11:59:43 12:03:02        3.32 OK        
+86716 background job xfg 11:59:29 12:05:03        5.57 WARNING   
+22003 scheduled task 004 11:55:29 12:06:42       11.22 ERROR     
+85742 scheduled task 064 11:55:16 12:07:33       12.28 ERROR     
+81470 background job wiy 12:08:30 12:09:33        1.05 OK        
+98746 scheduled task 746 12:04:18 12:11:35        7.28 WARNING   
+39860 scheduled task 460 11:53:17 12:13:09       19.87 ERROR     
+52532 background job tqc 12:00:03 12:13:56       13.88 ERROR     
+62922 scheduled task 531 12:14:20 12:15:09        0.82 OK        
+62401 scheduled task 936 12:05:59 12:16:23        10.4 ERROR     
+23703 scheduled task 374 12:04:57 12:18:23       13.43 ERROR     
+70808 scheduled task 182 11:44:43 12:18:26       33.72 ERROR     
+24482 scheduled task 672 12:10:38 12:19:14         8.6 WARNING   
+72897 scheduled task 016 12:12:27 -                  - INCOMPLETE
+72029 scheduled task 333 12:03:20 -                  - INCOMPLETE
+
+
+
 ```
 
 ## File Structure
